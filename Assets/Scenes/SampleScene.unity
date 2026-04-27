@@ -741,8 +741,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandGrab
   startHold: {fileID: 1721535840}
-  currentHold: {fileID: 0}
-  grabbedHold: {fileID: 0}
+  holdMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  holdsAreTriggers: 1
 --- !u!114 &176768663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1885,8 +1887,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandGrab
   startHold: {fileID: 1721535840}
-  currentHold: {fileID: 0}
-  grabbedHold: {fileID: 0}
+  holdMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  holdsAreTriggers: 1
 --- !u!114 &466428280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2926,8 +2930,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandGrab
   startHold: {fileID: 831529757}
-  currentHold: {fileID: 0}
-  grabbedHold: {fileID: 0}
+  holdMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  holdsAreTriggers: 1
 --- !u!114 &758672216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4206,8 +4212,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandGrab
   startHold: {fileID: 308769766}
-  currentHold: {fileID: 0}
-  grabbedHold: {fileID: 0}
+  holdMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  holdsAreTriggers: 1
 --- !u!114 &1056187077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4619,8 +4627,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandGrab
   startHold: {fileID: 831529757}
-  currentHold: {fileID: 0}
-  grabbedHold: {fileID: 0}
+  holdMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  holdsAreTriggers: 1
 --- !u!257 &1227060692
 TargetJoint2D:
   m_ObjectHideFlags: 0
@@ -4889,8 +4899,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandGrab
   startHold: {fileID: 2014171690}
-  currentHold: {fileID: 0}
-  grabbedHold: {fileID: 0}
+  holdMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  holdsAreTriggers: 1
 --- !u!114 &1279018817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4922,7 +4934,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &1455726743
 BoxCollider2D:
   m_ObjectHideFlags: 0
